@@ -1,0 +1,59 @@
+/* FOR REACT TOASTIFY  */
+
+.big-font {
+  font-size: 1.3rem;
+}
+
+/*FOR REACT TOASTIFY    */
+
+.btn {
+  outline: none;
+  border: none;
+  background-color: #9bbdd3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.8rem;
+  padding: 1rem 2rem;
+  border-radius: 5.4rem;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.name,
+.amount {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.amount {
+  background-color: #7c99ac;
+  padding: 0.2rem 1rem;
+  border-radius: 4rem;
+}
+
+.btn:hover {
+  background-color: rgba(155, 189, 211, 0.7);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.adding-animation {
+  animation: beat 300ms ease forwards;
+}
+
+.cart-icon {
+  transform: scaleX(-1);
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
